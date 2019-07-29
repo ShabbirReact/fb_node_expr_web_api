@@ -1,12 +1,24 @@
 Please find attached documents contains  db script and source code which access database.
 I have tested its fetching the data and displays in the browser in Json format.
 
- 
-How to Run:
-Please go to root folder in command line or visual studio code editor and type node app.js, iam using visual studio code.
+Build/Run
+Requirements
+Node.js
+sql express
+/* First, Install the needed packages */
+npm install
 
-Attached server side code will work without API directly can access database with removing express stuff(small modifications). 
-I have tested both with API and Without API. 
-Please let me know if any doubts i will explain
+/* Then start both Node and React */
+npm start
 
-Localhost URL you can see in screenshot.
+/* To run the Web Api Services */
+   Please go to root folder then on command line or visual studio code editor and type node app.js.'
+   Then it will start the service.
+
+Functionality
+It Fetches employees and show on to the browser in json format.
+
+How to access Web API
+
+Enter below URL on the browser.
+http://localhost:5000/Emp
